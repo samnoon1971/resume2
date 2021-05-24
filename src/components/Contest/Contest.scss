@@ -1,0 +1,48 @@
+#contest {
+  text-align: center;
+  width: 100vw;
+  background-color: var(--mainGrey);
+
+  .heading {
+    font-size: 20px;
+    position: relative !important;
+    h1 {
+      margin: 0;
+      padding: 20px 50px;
+    }
+    h3 {
+      margin: 0;
+      padding: 50px 50px;
+    }
+    img {
+      display: grid;
+      grid-gap: 30px;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin: auto;
+    }
+    p {
+      padding: 0 30px;
+      line-height: 30px;
+      @media (max-width: 414px) {
+        font-size: 15px;
+      }
+    }
+  }
+  .contest-data {
+    text-align: center;
+    .icon {
+      font-size: 50px;
+      padding: 20px 30px;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    .tooltip {
+      visibility: hidden;
+    }
+  }
+}
