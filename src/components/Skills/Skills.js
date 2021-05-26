@@ -44,6 +44,7 @@ const language = {
   ]
 }
 const Skills = () => {
+  var delayed;
   return (
     <section id="skills">
       <div className="heading">
@@ -91,15 +92,36 @@ const Skills = () => {
       </div>
 
         <div className="skills-icons" data-aos="fade-up">
-           <Bar
+          <Bar
              data={language}
              options={{
+               animation: {
+                 onComplete: () => {
+                   delayed = true;
+                 },
+                 delay: (context) => {
+                   let delay = 0;
+                   if (context.type === 'data' && context.mode === 'default' && !delayed) {
+                     delay = context.dataIndex * 300 + context.datasetIndex * 100;
+                   }
+                   return delay;
+                 },
+               },
+               scales: {
+                 x: {
+                   stacked: true,
+                 },
+                 y: {
+                   stacked: true
+                 }
+               },
                title:{
                  display: true,
                  text: "Language Graph",
                  
                },
                  indexAxis: 'y',
+                 responsive: true,
                legend: {
                  display: true,
                  position: 'right'
