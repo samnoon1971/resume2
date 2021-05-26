@@ -18,7 +18,7 @@ class NavBar extends Component {
           <div className="wideDiv">
             <a href="#hero">About Me</a>
             <a href="#skills">My Skills</a>
-           <a href="#contest">Competitive Programming Achievements</a>
+           <a href="#contest">Competitive Programming</a>
             <a href="#contact">Contact Me</a>
             <a
               href="https://drive.google.com/file/d/1UNw7wC3r2QBMNlv2Zd-8rg7abV_KZj5A/view?usp=sharing"
