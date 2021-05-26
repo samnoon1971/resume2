@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contest.css";
 
-import {Bar, Radar} from "react-chartjs-2";
+import {Radar} from "react-chartjs-2";
 
 const data = {
     labels: [
@@ -16,7 +16,7 @@ const data = {
     ],
     datasets: [{
         label: "Algo Skills",
-        data: [80, 90, 60, 30, 70, 40, 60, 50],
+        data: [80, 90, 30, 20, 70, 30, 60, 50],
         fill: true,
         backgroundColor: "rgba(255, 99, 132, 0.6",
         borderColor: "rgb(255, 99, 132",
