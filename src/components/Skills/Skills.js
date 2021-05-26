@@ -49,7 +49,6 @@ const Skills = () => {
     <section id="skills">
       <div className="heading">
         <h1>ABOUT ME</h1>
-
         <img src="../Images/ami.jpg" alt="S M Samnoon Abrar"/>
 
         <p data-aos="zoom-in">
@@ -92,8 +91,10 @@ const Skills = () => {
       </div>
 
         <div className="skills-icons" data-aos="fade-up">
-          <Bar
+          <Bar className
              data={language}
+               width={600}
+               height={300}
              options={{
                animation: {
                  onComplete: () => {
@@ -122,6 +123,7 @@ const Skills = () => {
                },
                  indexAxis: 'y',
                  responsive: true,
+                 maintainAspectRatio: false,
                legend: {
                  display: true,
                  position: 'right'

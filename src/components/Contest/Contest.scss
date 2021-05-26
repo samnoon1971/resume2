@@ -45,4 +45,17 @@
       visibility: hidden;
     }
   }
+  .contest-chart {
+    text-align: center;
+    .icon {
+      font-size: 30px;
+      padding: 10px 15px;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    .tooltip {
+      visibility: hidden;
+    }
+  }
 }

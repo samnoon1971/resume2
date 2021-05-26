@@ -5,7 +5,7 @@ import "./Hero.css";
 import {SiCodeforces, SiCodechef} from "react-icons/si";
 class Hero extends Component {
   render() {
-      /*
+
     const params = {
       particles: {
         line_linked: {
@@ -32,7 +32,7 @@ class Hero extends Component {
         },
       },
     };
-*/
+
     return (
       <section id="hero">
         <div className="hero">
