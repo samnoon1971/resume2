@@ -38,8 +38,8 @@ const language = {
       'rgba(54, 162, 235, 0.2)',
     ],
       borderWidth: 2,
-      data: [80, 80, 70, 40, 60],
-      maxBarThickness: 200
+      data: [100, 100, 70, 60, 70],
+      maxBarThickness: 75
     }
   ]
 }
@@ -87,7 +87,7 @@ const Skills = () => {
         </div>
        
       <div className="heading">
-        <h1>Skill Graph</h1>
+        <h1>Language Proficiency</h1>
       </div>
 
         <div className="skills-icons" data-aos="fade-up">
@@ -99,6 +99,7 @@ const Skills = () => {
                  text: "Language Graph",
                  
                },
+                 indexAxis: 'y',
                legend: {
                  display: true,
                  position: 'right'
