@@ -6,32 +6,6 @@ import {SiCodeforces, SiCodechef} from "react-icons/si";
 class Hero extends Component {
   render() {
 
-    const params = {
-      particles: {
-        line_linked: {
-          shadow: {
-            enable: true,
-            color: "#000",
-            blur: 1,
-          },
-        },
-        number: {
-          value: 100,
-          density: {
-            enable: true,
-            value_area: 1200,
-          },
-        },
-      },
-      interactivity: {
-        events: {
-          onhover: {
-            enable: true,
-            mode: "repulse",
-          },
-        },
-      },
-    };
 
     return (
       <section id="hero">
