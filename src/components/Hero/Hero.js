@@ -1,15 +1,42 @@
 import React, { Component } from "react";
 import { FaGithub, FaLinkedin, FaHackerrank } from "react-icons/fa";
 import "./Hero.css";
-//import Particles from "react-particles-js";
+import Particles from "react-particles-js";
 import {SiCodeforces, SiCodechef} from "react-icons/si";
 class Hero extends Component {
   render() {
+    const params = {
+      particles: {
+        line_linked: {
+          shadow: {
+            enable: true,
+            color: "#000",
+            blur: 1,
+          },
+        },
+        number: {
+          value: 200,
+          density: {
+            enable: true,
+            value_area: 1200,
+          },
+        },
+      },
+      interactivity: {
+        events: {
+          onhover: {
+            enable: true,
+            mode: "repulse",
+          },
+        },
+      },
+    };
 
 
     return (
       <section id="hero">
         <div className="hero">
+          <Particles params={params} className="particle" />
           <div className="hero-container">
             <div className="text-title">
               <h1>S M Samnoon Abrar</h1>
