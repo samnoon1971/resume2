@@ -41,7 +41,7 @@ class Hero extends Component {
             <div className="text-title">
               <h1>S M Samnoon Abrar</h1>
               <p>
-                I'm a computer science student passionate about problem solving and software engineering. I love to do competitive programming.
+                I'm a computer science student passionate about problem solving and software engineering.
               </p>
             </div>
             <div className="social-icons">

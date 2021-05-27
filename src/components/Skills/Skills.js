@@ -49,10 +49,10 @@ const Skills = () => {
     <section id="skills">
       <div className="heading">
         <h1>ABOUT ME</h1>
-        <img src="../Images/ami.jpg" alt="S M Samnoon Abrar"/>
+          <img src="../Images/ami.jpg" alt="S M Samnoon Abrar"></img>
 
         <p data-aos="zoom-in">
-          I am a problem solver and quick learner. Currently I am pursuing BS. in CSE at Bangladesh Army International University of Science and Technology
+          I am a problem solver and quick learner. I love to do competitive programming. Currently I am pursuing BS. in CSE at Bangladesh Army International University of Science and Technology
         </p>
       </div>
 
