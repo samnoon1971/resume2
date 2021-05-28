@@ -34,7 +34,7 @@ class Hero extends Component {
 
 
     return (
-      <section id="hero">
+      <section id="hero" data-aos="zoom-in" data-aos-delay="300">
         <div className="hero">
           <Particles params={params} className="particle" />
           <div className="hero-container">

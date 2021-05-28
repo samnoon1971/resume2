@@ -46,7 +46,7 @@ const language = {
 const Skills = () => {
   var delayed;
   return (
-    <section id="skills">
+    <section id="skills" data-aos="zoom-in" data-aos-delay="300">
       <div className="heading">
         <h1>ABOUT ME</h1>
           <img src="../Images/ami.jpg" alt="S M Samnoon Abrar"></img>
