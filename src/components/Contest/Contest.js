@@ -28,7 +28,7 @@ const data = {
 }
 const Contest = () => {
   return (
-    <section id="contest" data-aos="zoom-in" data-aos-delay="300">
+    <section id="contest">
         <div className="heading">
             <h1>Algorithms skills </h1>
         </div>
