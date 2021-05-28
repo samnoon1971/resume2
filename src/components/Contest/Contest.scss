@@ -2,7 +2,14 @@
   text-align: center;
   width: 100vw;
   background-color: var(--mainGrey);
-
+  .card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    text-align: center;
+  }
   .heading {
     font-size: 20px;
     position: relative !important;

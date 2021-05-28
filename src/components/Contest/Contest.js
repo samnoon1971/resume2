@@ -52,6 +52,10 @@ const Contest = () => {
       <div className="heading">
        <h1>Competitive Programming Achievements </h1>
       </div>
+        <div className="hero-container">
+            <img src="./ranklist.png" alt="Contest Ranking" />
+
+        </div>
       <div className="contest-data" data-aos="fade-down">
         <h3>Solved 1600+ Algorithmic and Analytical Problems on Various Online Judges</h3>
       </div>
