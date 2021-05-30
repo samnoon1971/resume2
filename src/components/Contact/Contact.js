@@ -1,14 +1,19 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import "./Contact.css";
-
+import Background from "./contactbg.jpg";
+var sectionStyle = {
+    width: "100%",
+    height: "400px",
+    backgroundImage: `url(${Background })`
+};
 function ContactForm() {
   const [state, handleSubmit] = useForm("mayaenan");
   if (state.succeeded) {
       return <p>Thanks. I got your response</p>;
   }
   return (
-    <section id="contact" data-aos="zoom-in" data-aos-delay="300">
+    <section id="contact" data-aos="zoom-in" data-aos-delay="300" style={sectionStyle}>
          <h1>CONTACT ME</h1>
         <hr />
         <p className="contact-subtitle">
