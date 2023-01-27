@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div id="footer">
-      <p className="text-title">S M Samnoon Abrar &copy; 2021</p>
+      <p className="text-title">S M Samnoon Abrar &copy; 2023</p>
       <div className="code-link">
         <a
           href="https://github.com/samnoon1971"

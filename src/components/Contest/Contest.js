@@ -16,10 +16,10 @@ const data = {
     ],
     datasets: [{
         label: "Algo Skills",
-        data: [80, 90, 30, 20, 70, 30, 60, 50],
+        data: [100, 80, 15, 50, 70, 40, 60, 50],
         fill: true,
         backgroundColor: "rgba(255, 99, 132, 0.6",
-        borderColor: "rgb(255, 99, 132",
+        borderColor: "rgb(255, 99, 132)",
         pointBackgroundColor: 'rgb(255, 99, 132)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
@@ -54,7 +54,7 @@ const Contest = () => {
       </div>
 
       <div className="contest-data" data-aos="fade-down">
-        <h3>Solved 1600+ Algorithmic and Analytical Problems on Various Online Judges</h3>
+        <h3>Solved 1850+ Algorithmic and Analytical Problems on Various Online Judges</h3>
       </div>
       <div className="contest-data" data-aos="fade-left">
       <h3>Participated At ICPC Dhaka Regional 2019 Hosted by Southeast University</h3>

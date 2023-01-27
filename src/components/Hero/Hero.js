@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FaGithub, FaLinkedin, FaHackerrank } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHackerrank, FaStackOverflow } from "react-icons/fa";
 import "./Hero.css";
 import Particles from "react-particles-js";
 import {SiCodeforces, SiCodechef} from "react-icons/si";
@@ -41,7 +41,7 @@ class Hero extends Component {
             <div className="text-title">
               <h1>S M Samnoon Abrar</h1>
               <p>
-                I'm a computer science student passionate about problem solving and software engineering.
+                Software Engineering Professional
               </p>
             </div>
             <div className="social-icons">
@@ -53,13 +53,12 @@ class Hero extends Component {
               >
                 <SiCodeforces />
               </a>
-
               <a
-                href="https://www.codechef.com/users/smabrar"
-                target="_blank"
-                rel="noopener noreferrer"
+                  href="https://stackoverflow.com/users/8188682"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
-                <SiCodechef />
+                <FaStackOverflow />
               </a>
               
               

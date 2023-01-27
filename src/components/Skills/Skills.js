@@ -7,16 +7,13 @@ import {
   FaHtml5,
   FaCss3,
   FaJs,
-  FaJava,
+  FaPhp,
   
-  FaReact,
-  FaNode,
-  FaBootstrap,
-  FaSass,
+  FaJenkins,
+  FaDocker,
  
 } from "react-icons/fa";
 import {
-    SiTailwindcss,
     SiCplusplus,
     SiMysql
 } from "react-icons/si";
@@ -26,7 +23,7 @@ import {
 import { DiMongodb } from "react-icons/di";
 
 const language = {
-  labels: ['C/C++', 'Java', 'Javascript', 'Python', 'SQL'],
+  labels: ['C/C++', 'PHP', 'Javascript'],
   datasets: [
     {
       label: "Languages",
@@ -34,8 +31,7 @@ const language = {
         'rgba(54, 162, 235, 0.6)',
       'rgba(255, 159, 64, 0.6)',
       'rgba(255, 205, 86, 0.6)',
-      'rgba(75, 192, 192, 0.6)',
-      'rgba(54, 162, 135, 0.6)',
+
     ],
       borderWidth: 2,
       data: [100, 80, 90, 60, 70],
@@ -52,8 +48,10 @@ const Skills = () => {
           <img src="../Images/ami.jpg" alt="S M Samnoon Abrar"></img>
 
         <p data-aos="zoom-in">
-          I am a problem solver and quick learner. I love to do competitive programming. Currently I am pursuing BS. in CSE at Bangladesh Army International University of Science and Technology
-        </p>
+
+            As a software engineer with over 1 year of experience, I have a strong foundation in computer science principles and am proficient in a variety of programming languages including Javascript, PHP, and C++.
+            <br/>
+            I have experience working on both front-end and back-end development and am comfortable with full-stack development. I have a strong ability to troubleshoot and debug software and am able to work effectively in a team environment.        </p>
       </div>
 
       <div className="heading">
@@ -63,26 +61,21 @@ const Skills = () => {
         <div className="skills-icons">
           <div className="skills-icons" data-aos="fade-up">
             <SiCplusplus className="icon" title="C++" />
-            <FaJava className="icon" title="Java" />
-            <FcAndroidOs className="icon" title="Android" />
-            <FaJs className="icon" title="JavaScript" />
+            <FaPhp className="icon" title="PHP" />
             <SiMysql className="icon" title="MySQL" />
 
           </div>
             <div className="skills_icons" data-aos="fade-right">
-            <FaReact className="icon" title="React.js" />
-            <FaNode className="icon" title="Node.js" />
-            <DiMongodb className="icon" title="MongoDB" />
+            <FaJenkins className="icon" title="Jenkins" />
+            <FaDocker className="icon" title="Docker" />
             </div>
             <div className="skills_icons" data-aos="fade-down">
 
             <FaHtml5 className="icon" title="HTML5" />
             <FaCss3 className="icon" title="CSS3" />
-            <FaBootstrap className="icon" title="BootStrap" />
-            <FaSass className="icon" title="SASS" />
-            <SiTailwindcss className="icon" title="TailwindCSS" />
+              <FaJs className="icon" title="JavaScript" />
 
-          </div>
+            </div>
 
         </div>
        
@@ -96,7 +89,9 @@ const Skills = () => {
                width={600}
                height={300}
              options={{
-               animation: {
+                 animationEnabled: true,
+
+                 animation: {
                  onComplete: () => {
                    delayed = true;
                  },
