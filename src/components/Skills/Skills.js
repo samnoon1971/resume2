@@ -17,10 +17,6 @@ import {
     SiCplusplus,
     SiMysql
 } from "react-icons/si";
-import {
-    FcAndroidOs,
-} from "react-icons/fc";
-import { DiMongodb } from "react-icons/di";
 
 const language = {
   labels: ['C/C++', 'PHP', 'Javascript'],

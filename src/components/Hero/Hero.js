@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FaGithub, FaLinkedin, FaHackerrank, FaStackOverflow } from "react-icons/fa";
 import "./Hero.css";
 import Particles from "react-particles-js";
-import {SiCodeforces, SiCodechef} from "react-icons/si";
+import {SiCodeforces} from "react-icons/si";
 class Hero extends Component {
   render() {
     const params = {
